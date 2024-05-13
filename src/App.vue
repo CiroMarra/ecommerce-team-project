@@ -1,29 +1,23 @@
 <script>
-<<<<<<< HEAD
 import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
+
 export default {
   components: {
     AppHeader,
+    AppFooter,
+
   },
   data() {
     return {
     };
   },
 }
-=======
-  import Footer from './components/Footer.vue';
 
-  export default{
-    components: {
-      Footer,
-    }
-  }
->>>>>>> fc6dee2272d3290401a32ad2cd5957c09bd8b8e4
 </script>
 
 
 <template>
-<<<<<<< HEAD
     <header>
 
     
@@ -33,9 +27,13 @@ export default {
       
       />
     </header>
+    <main>
 
-=======
->>>>>>> fc6dee2272d3290401a32ad2cd5957c09bd8b8e4
+    </main>
+    <footer>
+      <AppFooter></AppFooter>
+    </footer>
+
 
 </template>
 

@@ -1,6 +1,6 @@
 <script>
     export default{
-        name: 'Footer',
+        name: 'AppFooter',
         data() {
             return{
             }
@@ -13,7 +13,7 @@
 </template>
 
 <style scoped lang="scss">
-@use '../style/partials/variables.scss' as *;
+// @use '../style/partials/variables.scss' as *;
 
 
 </style>
