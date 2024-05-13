@@ -1,9 +1,9 @@
 <script>
-import AppSocial from './AppSocial.vue'
+import AppSocial from './HeaderSocial.vue'
 export default {
-  name: 'AppHero',
+  name: 'HeaderHero',
   components:{
-    AppSocial,
+    HeaderSocial,
   },
   props: {
     link: Object, 
@@ -16,7 +16,7 @@ export default {
   <div class="container">
     CASIMIRO
   </div>
-<appSocial></appSocial>
+<HeaderSocial></HeaderSocial>
 </template>
 
 <style scoped>

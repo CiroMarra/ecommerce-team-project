@@ -1,10 +1,10 @@
 <script>
-import AppHero from './AppHero.vue'
+import AppHero from './HeaderHero.vue'
 export default {
   name: 'AppHeader',
   
   components:{
-    AppHero
+    HeaderHero
   },
   props:{
     links: Array

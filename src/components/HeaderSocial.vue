@@ -1,7 +1,7 @@
 <script>
 
 export default {
-  name: 'AppSocial',
+  name: 'HeaderSocial',
   data() {
     return {
       socialIcons: [
