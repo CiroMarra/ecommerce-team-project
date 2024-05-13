@@ -1,7 +1,7 @@
 <script>
-import AppHero from './HeaderHero.vue'
+import HeaderHero from './HeaderHero.vue'
 export default {
-  name: 'AppHeader',
+  name: 'HeaderHero',
   
   components:{
     HeaderHero

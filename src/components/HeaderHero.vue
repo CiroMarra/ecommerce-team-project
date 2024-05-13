@@ -1,5 +1,5 @@
 <script>
-import AppSocial from './HeaderSocial.vue'
+import HeaderSocial from './HeaderSocial.vue'
 export default {
   name: 'HeaderHero',
   components:{
