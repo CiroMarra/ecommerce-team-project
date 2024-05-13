@@ -5,6 +5,7 @@
     components: {
       Footer,
     }
+  }
 </script>
 
 <template>
